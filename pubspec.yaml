@@ -1,0 +1,166 @@
+name: mara
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+8  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/gif1.gif
+  - assets/images/logo.png
+  - assets/images/add.png
+  - assets/images/explore.png
+  - assets/images/search.png
+  - assets/images/style.png
+  - assets/images/feedimg1.png
+  - assets/images/prof1.png
+  - assets/images/arrow_right_alt.png
+  - assets/images/Article banner 7.png
+  - assets/images/more_vert.png
+  - assets/images/apps.png
+  - assets/images/list_alt.png
+  - assets/images/Article banner 8.png
+  - assets/images/Article banner 6.png
+  - assets/images/Article banner 9.png
+  - assets/images/Article banner 10.png
+  - assets/images/Article banner 11.png
+  - assets/images/Article banner 12.png
+  - assets/images/Article banner 13.png
+  - assets/images/Article banner 14.png
+  - assets/images/Article banner 15.png
+  - assets/images/Article banner 16.png
+  - assets/images/Article banner 17.png
+  - assets/images/bookmark.png
+  - assets/images/ShareInfo Blue 1.png
+  - assets/images/ai.png
+  - assets/images/datasci.png
+  - assets/images/ronald.png
+  - assets/images/natasya.png
+  - assets/images/theresa.png
+  - assets/images/alfrad.png
+  - assets/images/rah.png
+  - assets/images/josna.png
+  - assets/images/artifi.png
+  - assets/images/swap_vert.png
+  - assets/images/Article banner 20.png
+  - assets/images/Article banner 21.png
+  - assets/images/Article banner 22.png
+  - assets/images/Article banner 23.png
+  - assets/images/Article banner 24.png
+  - assets/images/Article banner 25.png
+  - assets/images/Article banner 26.png
+  - assets/images/share_windows.png
+  - assets/images/Ellipse 84.png
+  - assets/images/Linkedin.png
+  - assets/images/Github.png
+  - assets/images/Social.png
+  - assets/images/Dribble Big Logo.png
+  - assets/images/globe.png
+  - assets/images/assistant_navigation.png
+  - assets/images/bubble_chart.png
+  - assets/images/analytics.png
+  - assets/images/gif2.gif
+  - assets/images/IMage.png
+  - assets/images/bookmarks2.png
+  - assets/images/send.png
+  - assets/images/john.png
+  - assets/images/love.png
+  - assets/images/Icon25.png
+  - assets/images/sendblue.png
+  - assets/images/photo.png
+  - assets/images/format_align_left.png
+  - assets/images/format_align_center.png
+  - assets/images/format_align_right.png
+  - assets/images/format_align_justify.png
+  - assets/images/format_underlined.png
+  - assets/images/format_italic.png
+  - assets/images/format_size.png
+  - assets/images/palette.png
+  - assets/images/add_link.png
+  - assets/images/add_photo_alternate.png
+  - assets/images/expand_more.png
+  - assets/images/calendar_month.png
+  - assets/images/Edit Icon.png
+  - assets/images/gif3.gif
+  - assets/images/Frame 48095738.png
+  - assets/images/prof1.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
